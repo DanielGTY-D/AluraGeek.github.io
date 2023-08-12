@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="/assets/css/base/normalize.css">
+
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <!-- base -->
+    <link rel="stylesheet" href="/assets/css/base/base.css">
+    <!-- header -->
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <!-- barra -->
+    <link rel="stylesheet" href="/assets/css/barra/barra.css">
+    <link rel="stylesheet" href="/assets/css/barra/barra-header.css">
+    <!-- logo-alura -->
+    <link rel="stylesheet" href="/assets/css/logo-alura.css">
+    <!-- logo-mando -->
+    <link rel="stylesheet" href="/assets/css/logo-mando.css">
+    <!-- search -->
+    <link rel="stylesheet" href="/assets/css/search/search.css">
+    <link rel="stylesheet" href="/assets/css//search/search-input.css">
+    <!-- campos -->
+    <link rel="stylesheet" href="/assets/css/campos.css">
+    <!-- campo-lbl -->
+    <link rel="stylesheet" href="/assets/css/campo-lbl.css">
+    <!-- campo-input -->
+    <link rel="stylesheet" href="/assets/css/campo-input.css">
+    <!-- campo-textarea -->
+    <link rel="stylesheet" href="/assets/css/campo-textarea.css">
+    <!-- label-nombre -->
+    <link rel="stylesheet" href="/assets/css/label-nombre.css">
+    <!-- login -->
+    <link rel="stylesheet" href="/assets/css/login/login.css">
+    <link rel="stylesheet" href="/assets/css/login/login-titulo.css">
+    <!-- bg-color -->
+    <link rel="stylesheet" href="/assets/css/bg-color.css">
+    <!-- btn -->
+    <link rel="stylesheet" href="/assets/css/btn.css">
+    <link rel="stylesheet" href="/assets/css/informacion/informacion.css">
+    <link rel="stylesheet" href="/assets/css/informacion/informacion-contenedor.css">
+    <!-- lista-informacion -->
+    <link rel="stylesheet" href="/assets/css/lista-informacion.css">
+    <!-- info -->
+    <link rel="stylesheet" href="/assets/css/info/info.css">
+    <link rel="stylesheet" href="/assets/css/info/info-enlace.css">
+    <!-- formulario -->
+    <link rel="stylesheet" href="/assets/css/formulario/formulario.css">
+    <link rel="stylesheet" href="/assets/css/formulario/formulario-contenido.css">
+    <link rel="stylesheet" href="/assets/css/formulario/formulario-titulo.css">
+    <!-- footer -->
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <!-- redes -->
+    <link rel="stylesheet" href="/assets/css/redes/redes.css">
+    <link rel="stylesheet" href="/assets/css/redes/redes-lista.css">
+    <!-- d-flex -->
+    <link rel="stylesheet" href="/assets/css/d-flex.css">
+    <!-- error -->
+    <link rel="stylesheet" href="/assets/css/error2.css">
+</head>
+
+<body>
+    <header>
+        <div class="barra barra--univ container">
+            <h1 class="barra__header">
+                <a href="/index.html">
+                    <img width="25px" height="25px" class="logo--alura" src="../assets/img/icons/alura-logo.svg"
+                        alt="logo alura">
+                    <img width="45px" height="45px" class="logo--mando" src="../assets/img/icons/mando-logo.svg"
+                        alt="imagen aluraGeek">
+                </a>
+            </h1>
+            <div class="search">
+                <input class="search__input" type="search" placeholder="¿Qué desea buscar?">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <form action="" class="login bg-color" data-form>
+                <fieldset>
+                    <h2 class="login__titulo">Iniciar Sesión</h2>
+
+                    <div class="campos">
+                        <div>
+                            <input type="email" name="email" id="email" required class="campo__input"
+                                data-input="email">
+                            <label for="email" class="campo__lbl"><span class="label__nombre">Ingrese su correo
+                                    electronico : @gmail.com</span></label>
+                        </div>
+                        <div>
+                            <input type="text" name="password" id="password" required class="campo__input password"
+                                min="8" maxlength="12" data-input="password">
+                            <label for="password" class="campo__lbl"><span class="label__nombre">Ingrese su Contraseña :
+                                    *******</span></label>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="d-flex">
+                    <button class="btn btn--submit" type="submit" data-tipo="sesion">Iniciar Sesión</button>
+                    <button type="button" class="btn btn--submit" data-tipo="registro">Registrarse</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <section class="bg-color">
+        <div class="container informacion">
+            <div class="informacion__contenedor">
+                <div class="logos">
+                    <img width="25px" height="25px" class="logo--alura" src="/assets/img/icons/alura-logo.svg"
+                        alt="logo alura">
+                    <img width="45px" height="45px" class="logo--mando" src="/assets/img/icons/mando-logo.svg"
+                        alt="imagen aluraGeek">
+                </div>
+                <ul class="lista-informacion">
+                    <li class="info">
+                        <a class="info__enlace" href="">Quienes somos</a>
+                    </li>
+                    <li class="info">
+                        <a class="info__enlace" href="">Politica de privacidad</a>
+                    </li>
+                    <li class="info">
+                        <a class="info__enlace" href="">Programa de Fidelidad</a>
+                    </li>
+                    <li class="info">
+                        <a class="info__enlace" href="">Nuestras Tiendas</a>
+                    </li>
+                    <li class="info">
+                        <a class="info__enlace" href="">Quiero ser Franquiciado</a>
+                    </li>
+                    <li class="info">
+                        <a class="info__enlace" href="">Anuncie Aquí</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="formulario">
+                <fieldset class="formulario__contenido">
+                    <legend class="formulario__titulo">Hable con Nosotros</legend>
+
+                    <div class="campos">
+                        <div>
+                            <input class="campo__input" type="text" id="nombre" name="nombre" required>
+                            <label class="campo__lbl" for="nombre"><span class="label__nombre">Nombre</span></label>
+                        </div>
+
+                        <div>
+                            <textarea name="mesaje" id="mensaje" cols="30" rows="10" class="campo__textarea"
+                                required></textarea>
+                            <label for="mesaje" class="campo__txtnombre"><span class="label__nombre--texta">Escribe tu
+                                    mensaje</span></label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <a class="btn" href="">Enviar Mensaje</a>
+            </form>
+        </div>
+    </section>
+    <footer class="footer container">
+        <p>Desarrollado por Danny yael : <span>2023</span></p>
+
+        <div class="redes">
+            <ul class="redes__lista">
+                <li class="red">
+                    <a href="#">
+                        <img class="red__img" src="/assets/img/icons/facebook.svg" alt="red facebook">
+                    </a>
+                </li>
+                <li class="red">
+                    <a href="#">
+                        <img class="red__img" src="/assets/img/icons/twtter.svg" alt="red twtter">
+                    </a>
+                </li>
+                <li class="red">
+                    <a href="#">
+                        <img class="red__img" src="/assets/img/icons/wha.svg" alt="red WhAatsApp">
+                    </a>
+                </li>
+                <li class="red">
+                    <a href="#">
+                        <img class="red__img" src="/assets/img/icons/instagram.svg" alt="red instagram">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script type="module" src="/assets/controllers/iniciar.sesion.js"></script>
+</body>
+
+</html>

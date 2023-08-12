@@ -1,0 +1,14 @@
+.descripcion__texto {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all .3s ease;
+    color: var(--negro);
+}
+
+.descripcion:focus+.descripcion__lbl .descripcion__texto,
+.descripcion:valid+.descripcion__lbl .descripcion__texto {
+    transform: translateY(-390%);
+    font-size: 1.4rem;
+    color: var(--colorSecundario);
+}

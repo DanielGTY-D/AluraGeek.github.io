@@ -1,0 +1,27 @@
+.producto__img {
+    height: 25rem;
+    max-width: 40rem;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.producto__img--alt {
+    height: 25rem;
+    width: 25rem;
+}
+
+/* .producto__img--similares {
+    height: 15rem;
+    width: 15rem;
+} */
+
+@media (min-width: 768px) {
+    .producto__img {
+        height: 20rem;
+    }
+
+    .producto__img--alt {
+        height: 43rem;
+        width: 43rem;
+    }
+}

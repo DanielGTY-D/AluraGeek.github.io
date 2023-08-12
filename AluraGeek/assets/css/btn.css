@@ -1,0 +1,28 @@
+@import url(../css/base/variables.css);
+.btn {
+    background-color: var(--colorSecundario);
+    color: var(--blanco);
+    padding: 1rem 2rem;
+    width: 17rem;
+    font-size: 1.4rem;
+}
+.btn.btn--submit {
+    display: block;
+    border: none;
+    width: 70%;
+    margin-left: 2rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+@media (min-width: 526px) {
+    .btn.btn--submit {
+        width: 35%;
+        margin: 0 0 0 2rem;
+    }
+}
+@media (min-width: 1204px) {
+    .btn.btn--submit {
+        width: 20%;
+    }
+}

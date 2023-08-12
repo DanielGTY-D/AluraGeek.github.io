@@ -1,0 +1,9 @@
+.eliminar {
+    border: none;
+    width: 17rem;
+    height: 4rem;
+    background-color: red;
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer;
+}

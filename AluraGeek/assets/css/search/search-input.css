@@ -1,0 +1,22 @@
+.search__input {
+    border-radius: 2rem;
+    display: none;
+    border: none;
+    padding: 0 1rem 0 2rem;
+    background-color: var(--colorGris);
+}
+.search__input:focus {
+    border: none;
+    outline: none;
+}
+@media (min-width: 768px) {
+    .search__input {
+        display: block;
+        width: 20rem;
+    }
+}
+@media (min-width: 1024px) {
+    .search__input {
+        width: 40rem;
+    }
+}

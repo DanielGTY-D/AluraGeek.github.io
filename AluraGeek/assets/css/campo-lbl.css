@@ -1,0 +1,54 @@
+.campo__lbl {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+    border-bottom: 2px solid var(--negro);
+}
+
+.campo__lbl::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid var(--colorSecundario);
+    transform: translateX(-100%);
+    transition: all .3s ease;
+}
+
+.campo__input:focus+.campo__lbl::after,
+.campo__input:valid+.campo__lbl::after {
+    transform: translateX(0%);
+}
+
+.campo__txtnombre {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+    border-bottom: 2px solid var(--negro);
+    outline: none;
+}
+
+.campo__txtnombre::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid var(--colorSecundario);
+    transform: translateX(-100%);
+    transition: all .3s ease;
+}
+
+.campo__textarea:focus+.campo__txtnombre::after,
+.campo__textarea:valid+.campo__txtnombre::after {
+    transform: translateX(0%);
+}

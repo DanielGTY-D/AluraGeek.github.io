@@ -1,0 +1,19 @@
+.informacion__contenedor {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+    .informacion__contenedor {
+        align-items: flex-start;
+        text-align: left;
+    }
+}
+@media (min-width: 1024px) {
+    .informacion__contenedor {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

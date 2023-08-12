@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* =10px */
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 1.6rem;
+    font-family: var(--fuentePrincipal);
+    margin: 0;
+    /* =16px */
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+h1{
+    font-size: 4rem;
+}
+h2 {
+    font-size: 3.8rem;
+}
+h3 {
+    font-size: 3.4rem;
+}
+h4 {
+    font-size: 2.8rem;
+}
+img {
+    display: block;
+    width: 100%;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}

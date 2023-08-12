@@ -1,0 +1,16 @@
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 2rem 1rem .5rem;
+    height: 20rem;
+    padding: .5rem 0;
+}
+
+.contenido__prod {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: .5rem;
+    height: 14rem;
+}

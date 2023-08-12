@@ -1,0 +1,19 @@
+.productos__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productos__header a {
+    color: var(--colorSecundario);
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.productos__header a::before {
+    content: '';
+    background: url(../../img/icons/flecha.svg) no-repeat center center / 3rem;
+    width: 3rem;
+    height: 3rem;
+    display: block;
+}

@@ -1,0 +1,26 @@
+.descripcion__lbl {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+    border-bottom: 2px solid var(--negro);
+}
+
+.descripcion__lbl::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid var(--colorSecundario);
+    transform: translateX(-100%);
+    transition: all .3s ease;
+}
+
+.descripcion:focus+.descripcion__lbl::after,
+.descripcion:valid+.descripcion__lbl::after {
+    transform: translateX(0%);
+}

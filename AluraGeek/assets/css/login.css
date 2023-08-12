@@ -1,0 +1,28 @@
+@import url("base/variables.css");
+
+.login a {
+    width: 15rem;
+    border: 2px solid rgb(184, 184, 184);
+    padding: 1rem 3rem;
+    text-align: center;
+    transition: all .5s ease-in-out;
+    color: var(--negro)
+}
+
+.login:hover a {
+    background-color: var(--colorSecundario);
+    border: none;
+    transform: scale(1.1);
+    color: var(--blanco);
+}
+
+@media (min-width: 768px) {
+    .login {
+        order: 2;
+    }
+
+    .login a {
+        width: 20rem;
+        padding: 1rem 7rem;
+    }
+}

@@ -1,0 +1,10 @@
+:root {
+    --colorPrincipal: #EAF2FD;
+    --colorSecundario: #2A7AE4;
+    --colorGris: #e2e2e2;
+    --negro: #000;
+    --blanco: #fff;
+
+    --fuentePrincipal: 'Poppins', sans-serif;
+    --fuenteSecundaria: 'Raleway', sans-serif;
+}

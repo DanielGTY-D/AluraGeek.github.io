@@ -1,0 +1,9 @@
+.barra__header {
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .barra__header {
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,21 @@
+@import url(../base/variables.css);
+.search {
+    background-color: var(--colorGris);
+    border-radius: 3rem;
+    display: block;
+    display: flex;
+    order: 2;
+}
+.search::after {
+    content: '';
+    background: url(../../img/icons/search.svg) no-repeat center / 3rem;
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
+@media (min-width: 768px) {
+    .search::after {
+        background-size: 4rem;
+    }
+}

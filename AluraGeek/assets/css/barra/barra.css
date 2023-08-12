@@ -1,0 +1,15 @@
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0 1rem 0;
+}
+.barra.barra--univ {
+    display: flex;
+}
+@media (min-width: 768px) {
+    .barra.barra--univ {
+        justify-content: flex-start;
+        gap: 4rem;
+    }
+}

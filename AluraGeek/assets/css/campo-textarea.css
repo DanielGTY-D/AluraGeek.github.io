@@ -1,0 +1,9 @@
+.campo__textarea {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background-color: var(--colorPrincipal);
+    border: none;
+    resize: none;
+    outline: none;
+}

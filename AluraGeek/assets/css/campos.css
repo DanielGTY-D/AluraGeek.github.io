@@ -1,0 +1,25 @@
+.campos {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    height: 100%;
+}
+
+.campos div {
+    position: relative;
+    height: 7rem;
+    overflow: hidden;
+    padding: 1rem 0;
+}
+
+.campos div:last-of-type {
+    position: relative;
+    height: 6rem;
+    overflow: hidden;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+.campos div.descripcion-1 {
+    height: 11rem;
+}

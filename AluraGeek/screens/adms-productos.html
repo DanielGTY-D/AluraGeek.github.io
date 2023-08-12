@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="/assets/css/base/normalize.css">
+
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <!-- base -->
+    <link rel="stylesheet" href="/assets/css/base/base.css">
+    <!-- header -->
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <!-- barra -->
+    <link rel="stylesheet" href="/assets/css/barra/barra.css">
+    <link rel="stylesheet" href="/assets/css/barra/barra-header.css">
+    <!-- logo-alura -->
+    <link rel="stylesheet" href="/assets/css/logo-alura.css">
+    <!-- logo-mando -->
+    <link rel="stylesheet" href="/assets/css/logo-mando.css">
+    <!-- search -->
+    <link rel="stylesheet" href="/assets/css/search/search.css">
+    <link rel="stylesheet" href="/assets/css//search/search-input.css">
+    <!-- btn -->
+    <link rel="stylesheet" href="/assets/css/btn.css">
+    <!-- logos -->
+    <link rel="stylesheet" href="/assets/css/logos.css">
+    <!-- bg-color -->
+    <link rel="stylesheet" href="/assets/css/bg-color.css">
+    <!-- productos -->
+    <link rel="stylesheet" href="/assets/css/productos/productos.css">
+    <link rel="stylesheet" href="/assets/css/productos/productos-header.css">
+    <link rel="stylesheet" href="/assets/css/productos/productos-categorias.css">
+    <link rel="stylesheet" href="/assets/css/productos/productos-contenedor.css">
+    <!-- lista-productos -->
+    <link rel="stylesheet" href="/assets/css/lista-productos.css">
+    <!-- producto -->
+    <link rel="stylesheet" href="/assets/css/producto/producto.css">
+    <link rel="stylesheet" href="/assets/css/producto/producto-img.css">
+    <!-- contenido -->
+    <link rel="stylesheet" href="/assets/css/contenido/contenido.css">
+    <link rel="stylesheet" href="/assets/css/contenido/contenido-titulo.css">
+    <link rel="stylesheet" href="/assets/css/contenido/contenido-precio.css">
+    <!-- footer -->
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <!-- redes -->
+    <link rel="stylesheet" href="/assets/css/redes/redes.css">
+    <link rel="stylesheet" href="/assets/css/redes/redes-lista.css">
+    <link rel="stylesheet" href="/assets/css/eliminar.css">
+    <!-- d-flex -->
+    <link rel="stylesheet" href="/assets/css/d-flex.css">
+
+<body>
+    <header>
+        <div class="barra barra--univ container">
+            <h1 class="barra__header">
+                <a href="/index.html">
+                    <img width="25px" height="25px" class="logo--alura" src="/assets/img/icons/alura-logo.svg"
+                        alt="logo alura">
+                    <img width="45px" height="45px" class="logo--mando" src="/assets/img/icons/mando-logo.svg"
+                        alt="imagen aluraGeek"></a>
+            </h1>
+            <div class="search">
+                <input class="search__input" type="search" placeholder="¿Qué desea buscar?">
+            </div>
+        </div>
+    </header>
+    <main class="container productos">
+        <div class="header">
+            <h3>Todos los productos</h3>
+
+            <a href="agregar-producto.html" class="btn">Agregar Producto</a>
+        </div>
+        <section class="productos__categorias">
+            <div class="productos__header">
+                <h3>Star Wars</h3>
+            </div>
+
+            <div class="productos__contenedor">
+                <ul class="lista__productos" data-tipo="starWars">
+
+                </ul>
+            </div>
+        </section>
+        <section class="productos__categorias">
+            <div class="productos__header">
+                <h3>Consolas</h3>
+
+                <a href="">Ver todo</a>
+            </div>
+
+            <div class="productos__contenedor">
+                <ul class="lista__productos" data-tipo="consolas">
+
+                </ul>
+            </div>
+        </section>
+        <section class="productos__categorias">
+            <div class="productos__header">
+                <h3>Variados</h3>
+
+                <a href="">Ver todo</a>
+            </div>
+
+            <div class="productos__contenedor">
+                <ul class="lista__productos" data-tipo="variados">
+
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer container">
+        <p>Desarrollado por Danny yael : <span>2023</span></p>
+
+        <div class="redes">
+            <ul class="redes__lista">
+                <li class="red">
+                    <a href="#">
+                        <img class="red__img" src="/assets/img/icons/facebook.svg" alt="red facebook">
+                    </a>
+                </li>
+                <li class="red">
+                    <a href="#">
+                        <img class="red__img" src="/assets/img/icons/twtter.svg" alt="red twtter">
+                    </a>
+                </li>
+                <li class="red">
+                    <a href="#">
+                        <img class="red__img" src="/assets/img/icons/wha.svg" alt="red WhAatsApp">
+                    </a>
+                </li>
+                <li class="red">
+                    <a href="#">
+                        <img class="red__img" src="/assets/img/icons/instagram.svg" alt="red instagram">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script type="module" src="/assets/controllers/adms.productos.js"></script>
+</body>
+
+</html>

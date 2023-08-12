@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+}
+.footer p {
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

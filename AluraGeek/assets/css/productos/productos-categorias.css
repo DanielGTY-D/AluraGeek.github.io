@@ -1,0 +1,7 @@
+.productos__categorias {
+    border-bottom: 2px solid var(--negro);
+    padding-bottom: 2rem;
+}
+.productos__categorias:last-of-type {
+    border: none;
+}

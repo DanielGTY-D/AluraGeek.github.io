@@ -1,0 +1,10 @@
+.formulario {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .formulario {
+        grid-column: 2 / 4;
+    }
+}

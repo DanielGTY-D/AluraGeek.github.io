@@ -1,0 +1,13 @@
+.logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .logos {
+        flex-direction: row;
+    }
+}

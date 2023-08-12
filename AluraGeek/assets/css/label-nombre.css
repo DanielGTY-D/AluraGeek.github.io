@@ -1,0 +1,29 @@
+.label__nombre {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all .3s ease;
+    color: var(--negro);
+}
+
+.label__nombre--texta {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all .3s ease;
+    color: var(--negro);
+}
+
+.campo__input:focus+.campo__lbl .label__nombre,
+.campo__input:valid+.campo__lbl .label__nombre {
+    transform: translateY(-160%);
+    font-size: 1.4rem;
+    color: var(--colorSecundario);
+}
+
+.campo__textarea:focus+.campo__txtnombre .label__nombre--texta,
+.campo__textarea:focus+.campo__txtnombre .label__nombre--texta {
+    transform: translateY(-140%);
+    font-size: 1.4rem;
+    color: var(--colorSecundario);
+}

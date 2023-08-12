@@ -1,0 +1,206 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "img": "bby-yoda",
+      "nombre": "bebe yoda",
+      "precio": 2000,
+      "categoria": "starWars",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": 2,
+      "img": "figura-dark",
+      "nombre": "Darck Veider",
+      "precio": 2000,
+      "categoria": "starWars",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": 4,
+      "img": "star-wars",
+      "nombre": "Taza Star trupper",
+      "precio": 2000,
+      "categoria": "starWars",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": 5,
+      "img": "star-wars2",
+      "nombre": "Cabesas de Darck veider",
+      "precio": 2000,
+      "categoria": "starWars",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": 6,
+      "img": "yoda",
+      "nombre": "Yoda Adulto",
+      "precio": 50,
+      "categoria": "starWars",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": 7,
+      "img": "control-xyz",
+      "nombre": "Consola Wi",
+      "precio": 2000,
+      "categoria": "consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": 8,
+      "img": "mando-wi",
+      "nombre": "Mando para WI",
+      "precio": 2000,
+      "categoria": "consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": 9,
+      "img": "nintendio",
+      "nombre": "Consola Nintendo",
+      "precio": 2000,
+      "categoria": "consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": 10,
+      "img": "play-5",
+      "nombre": "Play Station 5",
+      "precio": 2000,
+      "categoria": "consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": 11,
+      "img": "videojuego-antiguo",
+      "nombre": "Jugui bugui",
+      "precio": 2000,
+      "categoria": "consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": 12,
+      "img": "xvox",
+      "nombre": "Xbox X",
+      "precio": 2000,
+      "categoria": "consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": 13,
+      "img": "despertador",
+      "nombre": "Despertador rosa",
+      "precio": 2000,
+      "categoria": "variados",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": 14,
+      "img": "mando.xbox",
+      "nombre": "Mando de Xbox",
+      "precio": 2000,
+      "categoria": "variados",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": 15,
+      "img": "pikachu",
+      "nombre": "Botarga Pikachu",
+      "precio": 2000,
+      "categoria": "variados",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": 16,
+      "img": "sonic",
+      "nombre": "figura Sonic",
+      "precio": 2000,
+      "categoria": "variados",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": 17,
+      "img": "vr",
+      "nombre": "Lentes de Vr",
+      "precio": 2000,
+      "categoria": "variados",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": 18,
+      "img": "logo-japones",
+      "nombre": "Playera de Japón",
+      "precio": 2000,
+      "categoria": "variados",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": "2e93206e-fe3d-47f2-b4fc-f6753ab492df",
+      "img": "bby-yoda",
+      "nombre": "Baby Yoda",
+      "precio": "1200",
+      "categoria": "starWars",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": "3a2a7b26-0ba9-4c4b-b2dd-cc8c7c3bf1e3",
+      "img": "https://images.unsplash.com/photo-1595433707802-6b2626ef1c91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
+      "nombre": "gato 2",
+      "precio": "1000",
+      "categoria": "variados",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": "ebf50be8-7c0d-47e3-9ac5-67e7f0dbfd08",
+      "img": "https://images.unsplash.com/photo-1664925192097-54e1a3c48778?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80",
+      "nombre": "Estuido",
+      "precio": "1400",
+      "categoria": "variados",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": "5662909c-cfec-455b-86a3-f82b18447a4a",
+      "img": "https://images.unsplash.com/photo-1605901309584-818e25960a8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1619&q=80",
+      "nombre": "Xbox con control",
+      "precio": "12000",
+      "categoria": "consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at leo neque. Maecenas euismod massa tristique, facilisis erat eget, porttitor nulla. Phasellus non mauris quis nunc scelerisque accumsan vel ac ex. Donec fermentum viverra erat, in rutrum mauris volutpat at. Mauris in varius felis. In faucibus euismod ipsum nec ultrices. Quisque ipsum sapien, egestas id neque eu, hendrerit rutrum mauris. Maecenas vel sagittis sem, nec dignissim velit. Cras at sapien congue, fringilla nulla id, gravida mauris. "
+    },
+    {
+      "id": "0878c8be-98b1-447f-a91a-1f6d456c1344",
+      "img": "https://images.unsplash.com/photo-1691044892876-b128d353e128?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80",
+      "nombre": "Departamento",
+      "precio": "130000",
+      "categoria": "variados",
+      "descripcion": "sit amet dictum nunc hendrerit. Fusce vel commodo urna. Mauris vel felis vitae nulla feugiat eleifend ut ut massa. Duis odio massa, tincidunt quis sodales ac, commodo in libero. Ut quis interdum neque. Morbi est sapien, posuere id ornare sed, facilisis nec nibh. Etiam sit amet ex elit. Nullam ullamcorper, quam non dignissim maximus, magna risus pellentesque sapien, sit amet pulvinar urna metus sagittis lectus. Suspendisse turpis mi, semper egestas quam sit amet, pretium bibendum ipsum. "
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Danny yael",
+      "email": "yael.alura@alura.com",
+      "password": 232323
+    },
+    {
+      "id": 2,
+      "nombre": "Pedro Rivera",
+      "email": "PedroRiv.alura@alura.com",
+      "password": 232323
+    },
+    {
+      "id": 3,
+      "nombre": "Gorge lopez",
+      "email": "lopez.alura@alura.com",
+      "password": 232323
+    },
+    {
+      "id": "4716cef8-e167-4a74-8a1f-df99920c5be3",
+      "nombre": "danny gael",
+      "email": "creeperpro125@gmail.com",
+      "password": "Dygt2004"
+    }
+  ]
+}

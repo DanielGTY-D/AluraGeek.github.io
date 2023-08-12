@@ -1,0 +1,17 @@
+.informacion {
+    padding: 3rem 0;
+}
+@media (min-width: 768px) {
+    .informacion {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 1024px) {
+    .informacion {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 4rem;
+        height: 40%;
+    }
+}

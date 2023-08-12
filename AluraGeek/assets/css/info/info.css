@@ -1,0 +1,6 @@
+.info {
+    margin-bottom: 1rem;
+}
+.info:last-of-type {
+    margin: 0;
+}
